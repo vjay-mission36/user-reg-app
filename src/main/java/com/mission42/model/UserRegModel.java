@@ -19,5 +19,5 @@ public class UserRegModel {
 
     @NotEmpty(message = "Ip address can not empty")
     @Pattern(regexp = "^(((1?[1-9]?|10|2[0-4])\\d|25[0-5])($|\\.(?!$))){4}$", message = "Invalid Ip4 address")
-    private String ip;
+    private String ip; // format
 }
